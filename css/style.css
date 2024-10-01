@@ -3,7 +3,36 @@ body {
   margin: 10px;
 }
 #home {
-  margin: -1px, 0px, -1px, -1px;
-  padding-bottom: 2cm;
-  background-color:  rgb(111, 0, 255);
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    background-color:  #483355;
+}
+header {
+    font-size: 30px;
+    color: rgb(197, 4, 187);
+    padding-left: 2cm;
+    float: left;
+}
+nav div{
+    float: right;
+    padding-right: 1cm;
+}
+nav button {
+    color: lightgray;
+    background-color: purple;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: dotted;
+}
+
+nav button:hover{
+    color:white;
+    font-weight: bolder;
+    background-color: purple;
+    text-decoration: underline;
 }
