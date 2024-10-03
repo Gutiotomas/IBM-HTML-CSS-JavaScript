@@ -25,7 +25,8 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .topdiv {
@@ -36,7 +37,8 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
+  font-size: 200%;
+  color: whitesmoke
 }
 
 .profile_name .contact_info {
@@ -92,7 +94,7 @@ h2 {
 }
 
 #about-me h1 {
-  font-size: 65px;
+  font-size: 280%;
   margin-top: 90px;
   color: #7600bc;
 }
@@ -104,7 +106,7 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 80%;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
